@@ -1,0 +1,44 @@
+# Dart/Flutter/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+*.lock
+
+# Flutter build
+build/
+.gradle/
+android/.gradle/
+android/build/
+
+# iOS build
+ios/Flutter/Flutter.podspec
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.xcframework
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/Podfile.lock
+.symlinks/
+flutter_*.keystore
+key.properties
+
+# Web
+web/dart_js_app/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+*.iml
+*.lock
+
+# Misc
+.env
+.env.local
+*.log
